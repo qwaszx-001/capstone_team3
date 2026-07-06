@@ -1,0 +1,9 @@
+# 백신 4종 매핑 — 전부 약국(pharmacy)에서 픽업, box는 node_c_grasp의 텔레포트(spawn/delete) 대상 모델명
+"A형 독감 백신":
+  box: vaccine_a
+"B형 독감 백신":
+  box: vaccine_b
+"AB형 독감 백신":
+  box: vaccine_ab
+"O형 독감 백신":
+  box: vaccine_o

@@ -1,0 +1,17 @@
+# colcon build artifacts (재생성 가능)
+build/
+install/
+log/
+
+# 외부에서 클론해오는 저장소 — 로컬엔 있어야 빌드되지만 git 추적 대상 아님
+# (README 안내대로 별도 clone 필요, 중첩 .git이라 서브모듈 없이 직접 추적 불가)
+src/aws-robomaker-hospital-world/
+src/m-explore-ros2/
+
+# 비밀키
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/

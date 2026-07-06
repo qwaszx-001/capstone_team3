@@ -1,0 +1,35 @@
+# 병실/공간 좌표 매핑 (map 프레임 기준 절대좌표)
+# LLM 연동 시 이 파일을 참조해 자연어 명령 속 위치명을 좌표로 변환한다.
+pharmacy:
+  name: "약국"
+  x: -10.37
+  y: -26.25
+  yaw: -0.28
+
+room_301:
+  name: "301호"
+  blood_type: "A형"
+  x: 10.91
+  y: -8.71
+  yaw: 0.26
+
+room_302:
+  name: "302호"
+  blood_type: "B형"
+  x: -10.04
+  y: -1.48
+  yaw: -0.25
+
+room_303:
+  name: "303호"
+  blood_type: "AB형"
+  x: -10.11
+  y: -15.25
+  yaw: -0.13
+
+room_304:
+  name: "304호"
+  blood_type: "O형"
+  x: -2.67
+  y: -17.56
+  yaw: -0.32
